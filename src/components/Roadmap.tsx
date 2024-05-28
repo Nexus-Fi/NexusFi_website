@@ -36,7 +36,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          Sit duis est minim proident non nisi velit non consectetur. Esse
+          duis est minim proident non nisi velit non consectetur. Esse
           adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
           Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
           incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
