@@ -9,30 +9,29 @@ const HeroSection = () => {
       className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center 
     relative overflow-hidden mx-auto py-10 md:py-0"
     >
-     
-      <div className="p-4 relative z-10 w-full text-center text-gray-300">
+      <div className="p-4 mt-10 relative z-10 w-full text-center text-gray-300">
         <h1
-          className="mt-8 pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent
+          className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent
          bg-gradient-to-b from-neutral-50 to-neutral-400"
         >
-          NexusFi Restaking Nibru
+          Restaking Made Simple for Enhanced Security
         </h1>
-        <p className="mt-6 font-bold text-base md:text-lg  text-neutral-300 max-w-2xl mx-auto">
-          The platform facilitates stakers in participating in the validation of
-          new software modules within the Nibi ecosystem. Stakers can opt in by
-          granting the Nexus smart contracts permission to enforce additional
-          slashing conditions on their staked tokens. This opt-in mechanism
-          enables stakers to validate various types of modules, such as
-          consensus protocols, data availability layers, virtual machines,
-          keeper networks, oracle networks, bridges, threshold cryptography
-          schemes, and trusted execution environments.
+        <p className="mt-2 font-bold text-base md:text-lg  text-neutral-300 max-w-2xl mx-auto">
+          "Nexus Finance revolutionizes the world of decentralized finance by
+          simplifying the process of restaking. Our platform leverages the power
+          of blockchain to provide seamless, secure, and efficient restaking
+          solutions. By enabling shared security, Nexus Finance enhances the
+          robustness and resilience of the entire DeFi ecosystem. Join us in
+          creating a more secure and interconnected financial future."
         </p>
       </div>
-      <div className='mt-4'>
+      <div className="mt-4">
         <Link href={"/"}>
-          <Button borderRadius='1.75rem'
-          className='bg-black dark:bg-white text-white dark:text-black border-slate-700 dark:border-neutral-200'>
-          Explore Restaking
+          <Button
+            borderRadius="1.75rem"
+            className="bg-black dark:bg-white text-white dark:text-black border-slate-700 dark:border-neutral-200"
+          >
+            Explore Restaking
           </Button>
         </Link>
       </div>

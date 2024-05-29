@@ -1,22 +1,28 @@
 "use client"
 import React from 'react'
-import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
-import bgImg from "../../bg1.jpeg"
 
 const Roadmap = () => {
   return (
     <div>
+      <div className='text-center flex flex-col justify-center relative '>
+        <div className=''>
+        <h3 className='text-3xl mb-2 leading-10 font-bold'>Progression</h3>
+        </div>
+        <div>
+        <h1 className='text-6xl mt-4 mb-4 leading-10 font-extrabold text-blue-400'> Roadmap</h1>
+        </div>
+      </div>
       <TracingBeam className="px-6">
         <div className="max-w-2xl mx-auto antialiased pt-4 relative">
           {dummyContent.map((item, index) => (
             <div key={`content-${index}`} className="mb-10">
-              <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+              <h2 className="bg-black text-white rounded-full text-3xl font-bold leading-2 w-fit px-1 py-1 mb-4">
                 {item.badge}
               </h2>
 
-              <p className= "text-2xl mb-4">
+              <p className= "text-3xl font-semibold mb-4">
                 {item.title}
               </p>
 
@@ -32,79 +38,200 @@ const Roadmap = () => {
 }
 const dummyContent = [
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Design and Prototyping (Q2 2024)",
     description: (
       <>
         <p>
-          Sit duis est minim proident non nisi velit non consectetur. Esse
-          adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-          Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-          incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-          fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-          nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-          occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-          officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-          commodo et labore dolore commodo pariatur.
+          <span className="text-2xl font-semibold">
+            {" "}
+            Architecture Design :-{" "}
+          </span>{" "}
+          Design the architecture of the restaking platform, including smart
+          contracts and the Nexus Pod system.
         </p>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-        </p>
-        <p>
-          Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-          reprehenderit deserunt amet laborum consequat adipisicing officia qui
-          irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-          Amet culpa officia aliquip deserunt veniam deserunt officia
-          adipisicing aliquip proident officia sunt.
+          <span className="text-2xl font-semibold"> Prototyping :- </span> Build
+          a prototype of the platform to validate key concepts and
+          functionalities
         </p>
       </>
     ),
-    badge: "React",
-    image:
-      {bgImg},
+    badge: "Phase 1 :-",
   },
+
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Development (Q3 2024)",
     description: (
       <>
         <p>
-          Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-          deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-          non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-          sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-          velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-          commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
+          <span className="text-2xl font-semibold">
+            Smart Contract Development :-
+          </span>
+          Develop and test the smart contracts for token locking, staking, and
+          slashing mechanisms.
         </p>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          <span className="text-2xl font-semibold">
+            Nexus Pod Development :-
+          </span>
+          Implement the Nexus Pod system for monitoring validator balances and
+          enforcing slashing.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold">
+            User Interface Development :-
+          </span>
+          Create a user-friendly interface for interacting with the restaking
+          platform.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold">Integration :-</span>
+          Integrate the platform with Nibiru's ecosystem and other relevant
+          systems.
         </p>
       </>
     ),
-    badge: "Changelog",
-    image:
-      {bgImg},
+    badge: "Phase 2 :-",
   },
+
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Testing and Auditing (Q3 2024)",
     description: (
       <>
         <p>
-          Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-          deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-          non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-          sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-          velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-          commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
+          <span className="text-2xl font-semibold">Internal Testing:-</span>
+          Conduct extensive internal testing to identify and fix bugs and
+          issues.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold"> Security Audits:- </span>{" "}
+          Engage third-party security firms to perform comprehensive audits of
+          the smart contracts and platform.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold"> Testnet Launch:- </span>{" "}
+          Launch a testnet of the platform to a broader audience for real-world
+          testing and feedback.
         </p>
       </>
     ),
-    badge: "Launch Week",
-    image:
-      {bgImg},
+    badge: "Phase 3 :-",
+  },
+
+  {
+    title: "Launch Preparation (Q4 2024)",
+    description: (
+      <>
+        <p>
+          <span className="text-2xl font-semibold">
+            {" "}
+            Pre-Launch Marketing :-{" "}
+          </span>{" "}
+          Intensify marketing efforts to build anticipation and awareness ahead
+          of the official launch.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold"> Beta Launch :- </span> Early
+          Mainnet access to a broader audience(approx 2000 users) for real-world
+          testing and feedback.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold"> Token Design :- </span>{" "}
+          Design the native token for the restaking platform, including its
+          economic model and utility within the ecosystem.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold"> Documentation :- </span>{" "}
+          Prepare detailed documentation for users, including guides, tutorials,
+          and FAQs.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold"> Final Adjustments :- </span>{" "}
+          Make final adjustments based on beta testing feedback and audit
+          results.
+        </p>
+      </>
+    ),
+    badge: "Phase 4 :-",
+  },
+
+  {
+    title: "Official Launch (Q1 2025)",
+    description: (
+      <>
+        <p>
+          <span className="text-2xl font-semibold">
+            {" "}
+            Official Public Launch :-{" "}
+          </span>{" "}
+          Officially launch the restaking platform on Nibiru for everyone.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold">
+            {" "}
+            Audits and Testing :-{" "}
+          </span>{" "}
+          Conduct security audits and testing of the token contracts to ensure
+          robustness and security.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold"> Ongoing Support :- </span>{" "}
+          Provide ongoing support and updates to users, ensuring a smooth
+          transition and addressing any post-launch issues.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold"> Token Launch :- </span> If
+          applicable, launch the native token associated with the restaking
+          platform, including an initial distribution event (e.g., ICO or
+          airdrop).
+        </p>
+      </>
+    ),
+    badge: "Phase 5 :-",
+  },
+
+  {
+    title: "Improvement and Development (Q2 2025)",
+    description: (
+      <>
+        <p>
+          <span className="text-2xl font-semibold">
+            {" "}
+            Smart Contract Development :-{" "}
+          </span>{" "}
+          Develop the smart contracts required for the token's functionality and
+          distribution.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold">
+            {" "}
+            Initial Distribution Event :-{" "}
+          </span>{" "}
+          Conduct an initial distribution event, such as an ICO or airdrop, to
+          launch the native token.
+        </p>
+
+        <p>
+          <span className="text-2xl font-semibold"> Exchange Listings :- </span>{" "}
+          List the token on major exchanges and enable trading.
+        </p>
+        <p>
+          <span className="text-2xl font-semibold">
+            {" "}
+            Community Engagement :-{" "}
+          </span>{" "}
+          Intensify marketing efforts to build anticipation and awareness around
+          the token launch.
+        </p>
+      </>
+    ),
+    badge: "Phase 6 :-",
   },
 ];
 export default Roadmap
