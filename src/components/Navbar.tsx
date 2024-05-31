@@ -20,7 +20,15 @@ function Navbar ({ className }: { className?: string }){
             ></MenuItem>
           </Link>
 
-          <Link href={"/"}>
+          <Link href={"/Roadmap"}>
+            <MenuItem
+              setActive={setActive}
+              active={active}
+              item="Architecture"
+            ></MenuItem>
+          </Link>
+
+          <Link href={"/About"}>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -28,23 +36,7 @@ function Navbar ({ className }: { className?: string }){
             ></MenuItem>
           </Link>
 
-          <Link href={"/"}>
-            <MenuItem
-              setActive={setActive}
-              active={active}
-              item="About"
-            ></MenuItem>
-          </Link>
-          
-          <Link href={"/"}>
-            <MenuItem
-              setActive={setActive}
-              active={active}
-              item="Architecure"
-            ></MenuItem>
-          </Link>
-
-          <Link href={"/"}>
+          <Link href={"/OurTeam"}>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -52,7 +44,7 @@ function Navbar ({ className }: { className?: string }){
             ></MenuItem>
           </Link>
 
-          <Link href={"/"}>
+          <Link href={"/ContactUs"}>
             <MenuItem
               setActive={setActive}
               active={active}

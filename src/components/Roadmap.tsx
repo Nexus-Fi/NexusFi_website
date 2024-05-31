@@ -6,27 +6,32 @@ import { TracingBeam } from "./ui/tracing-beam";
 const Roadmap = () => {
   return (
     <div>
-      <div className='text-center flex flex-col justify-center relative '>
-        <div className=''>
-        <h3 className='text-3xl mb-2 leading-10 font-bold'>Progression</h3>
+      <div className="text-center flex flex-col justify-center relative ">
+        <div className="">
+          <h3 className="text-3xl mb-2 leading-10 font-bold text-white dark:text-black">
+            Progression
+          </h3>
         </div>
         <div>
-        <h1 className='text-6xl mt-4 mb-4 leading-10 font-extrabold text-blue-400'> Roadmap</h1>
+          <h1 className="text-6xl mt-4 mb-4 leading-10 font-extrabold text-blue-400">
+            {" "}
+            Roadmap
+          </h1>
         </div>
       </div>
       <TracingBeam className="px-6">
-        <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+        <div className="max-w-7xl mx-auto antialiased pt-4 relative">
           {dummyContent.map((item, index) => (
             <div key={`content-${index}`} className="mb-10">
-              <h2 className="bg-black text-white rounded-full text-3xl font-bold leading-2 w-fit px-1 py-1 mb-4">
+              <h2 className="bg-black text-white dark:text-black  rounded-full text-3xl font-bold leading-2 w-fit px-1 py-1 mb-4">
                 {item.badge}
               </h2>
 
-              <p className= "text-3xl font-semibold mb-4">
+              <p className="text-3xl text-white dark:text-black font-semibold mb-4">
                 {item.title}
               </p>
 
-              <div className="text-lg  prose prose-sm dark:prose-invert">
+              <div className="text-lg text-white dark:text-black prose prose-sm dark:prose-invert">
                 {item.description}
               </div>
             </div>
@@ -64,7 +69,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          <span className="text-2xl font-semibold">
+          <span className="text-2xl font-semibold ">
             Smart Contract Development :-
           </span>
           Develop and test the smart contracts for token locking, staking, and
