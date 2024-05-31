@@ -93,7 +93,7 @@ const dummyContent = [
 
         <p>
           <span className="text-2xl font-semibold">Integration :-</span>
-          Integrate the platform with Nibiru's ecosystem and other relevant
+          Integrate the platform with Nibirus ecosystem and other relevant
           systems.
         </p>
       </>
@@ -210,7 +210,7 @@ const dummyContent = [
             {" "}
             Smart Contract Development :-{" "}
           </span>{" "}
-          Develop the smart contracts required for the token's functionality and
+          Develop the smart contracts required for the tokens functionality and
           distribution.
         </p>
         <p>
