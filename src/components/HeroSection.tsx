@@ -19,12 +19,12 @@ const HeroSection = () => {
           Restaking Made Simple for Enhanced Security
         </h1>
         <p className="mt-2 font-bold text-base md:text-lg  text-neutral-300 max-w-2xl mx-auto">
-          "Nexus Finance revolutionizes the world of decentralized finance by
+          Nexus Finance revolutionizes the world of decentralized finance by
           simplifying the process of restaking. Our platform leverages the power
           of blockchain to provide seamless, secure, and efficient restaking
           solutions. By enabling shared security, Nexus Finance enhances the
           robustness and resilience of the entire DeFi ecosystem. Join us in
-          creating a more secure and interconnected financial future."
+          creating a more secure and interconnected financial future.
         </p>
       </div>
       <div className="mt-4">
