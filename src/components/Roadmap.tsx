@@ -1,11 +1,11 @@
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
 
 const Roadmap = () => {
   return (
-    <div>
+    <div id="Roadmap">
       <div className="text-center flex flex-col justify-center relative ">
         <div className="">
           <h3 className="text-3xl mb-2 leading-10 font-bold text-white dark:text-black">
@@ -40,7 +40,7 @@ const Roadmap = () => {
       </TracingBeam>
     </div>
   );
-}
+};
 const dummyContent = [
   {
     title: "Design and Prototyping (Q2 2024)",
@@ -239,4 +239,4 @@ const dummyContent = [
     badge: "Phase 6 :-",
   },
 ];
-export default Roadmap
+export default Roadmap;
