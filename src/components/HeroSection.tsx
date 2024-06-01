@@ -17,7 +17,7 @@ const HeroSection = () => {
           className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent
          bg-gradient-to-b from-neutral-50 to-neutral-400"
         >
-          Resktake your NIBI&apos;s to{" "}
+          Restake your NIBI&apos;s to{" "}
           <span>
             <Typewriter
               words={["Secure", "Validate", "Earn"]}
