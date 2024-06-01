@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["images.unsplash.com", "res.cloudinary.com"],
+    domains: ["images.unsplash.com", "res.cloudinary.com", "i.ibb.co", "pbs.twimg.com"],
   },
   webpack(config) {
     // Grab the existing rule that handles SVG imports
