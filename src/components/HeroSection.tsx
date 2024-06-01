@@ -12,10 +12,9 @@ const HeroSection = () => {
     relative overflow-hidden mx-auto py-10 md:py-0"
     >
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="blue" />
-      <div className="p-4 mt-10 relative z-10 w-full text-center text-gray-300">
+      <div className="p-4 mt-10 relative z-10 w-full text-center">
         <h1
-          className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent
-         bg-gradient-to-b from-neutral-50 to-neutral-400"
+          className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-white"
         >
           Resktake your NIBI&apos;s to{" "}
           <span>
