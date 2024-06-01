@@ -1,8 +1,9 @@
-import React from 'react'
-import Link from 'next/link';
-import { Button} from './ui/moving-border';
+"use client";
+import React from "react";
+import Link from "next/link";
+import { Typewriter } from "react-simple-typewriter";
+import { Button } from "./ui/moving-border";
 import { Spotlight } from "@/components/ui/Spotlight";
-
 
 const HeroSection = () => {
   return (
@@ -16,19 +17,26 @@ const HeroSection = () => {
           className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent
          bg-gradient-to-b from-neutral-50 to-neutral-400"
         >
-          Restaking Made Simple for Enhanced Security
+          Resktake your NIBI's to{" "}
+          <span>
+            <Typewriter
+              words={["Secure", "Validate", "Earn"]}
+              loop={5}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
         </h1>
-        <p className="mt-2 font-bold text-base md:text-lg  text-neutral-300 max-w-2xl mx-auto">
-          Nexus Finance revolutionizes the world of decentralized finance by
-          simplifying the process of restaking. Our platform leverages the power
-          of blockchain to provide seamless, secure, and efficient restaking
-          solutions. By enabling shared security, Nexus Finance enhances the
-          robustness and resilience of the entire DeFi ecosystem. Join us in
-          creating a more secure and interconnected financial future.
+        <p className="mt-2 text-base md:text-lg  text-neutral-300 max-w-2xl mx-auto">
+        Nexus Finance enables seamless restaking and validation on the Nibiru platform, empowering users to secure, validate, and earn. <br/> <br/>
+        Join us in creating a more secure and interconnected financial future.
         </p>
       </div>
       <div className="mt-4">
-        <Link href={"/"}>
+        <Link href={"https://litepaper.nexusfi.xyz/"}>
           <Button
             borderRadius="1.75rem"
             className="bg-black dark:bg-white text-white dark:text-black border-slate-700 dark:border-neutral-200"
@@ -39,6 +47,6 @@ const HeroSection = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HeroSection
+export default HeroSection;
