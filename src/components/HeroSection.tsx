@@ -17,7 +17,7 @@ const HeroSection = () => {
           className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent
          bg-gradient-to-b from-neutral-50 to-neutral-400"
         >
-          Resktake your NIBI's to{" "}
+          Resktake your NIBI&apos;s to{" "}
           <span>
             <Typewriter
               words={["Secure", "Validate", "Earn"]}
@@ -31,8 +31,10 @@ const HeroSection = () => {
           </span>
         </h1>
         <p className="mt-2 text-base md:text-lg  text-neutral-300 max-w-2xl mx-auto">
-        Nexus Finance enables seamless restaking and validation on the Nibiru platform, empowering users to secure, validate, and earn. <br/> <br/>
-        Join us in creating a more secure and interconnected financial future.
+          Nexus Finance enables seamless restaking and validation on the Nibiru
+          platform, empowering users to secure, validate, and earn. <br />{" "}
+          <br />
+          Join us in creating a more secure and interconnected financial future.
         </p>
       </div>
       <div className="mt-4">
