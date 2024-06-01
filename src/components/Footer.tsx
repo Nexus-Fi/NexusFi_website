@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#Architecure"
                 className="hover:text-white transition-colors duration-300"
               >
                 Architecure
@@ -32,7 +32,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#Roadmap"
                 className="hover:text-white transition-colors duration-300"
               >
                 Roadmap
@@ -40,7 +40,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#OurTeam"
                 className="hover:text-white transition-colors duration-300"
               >
                 Our Team
@@ -49,7 +49,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="#"
+                href="#ContactUs"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact us
@@ -61,30 +61,23 @@ const Footer = () => {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex flex-col justify-start ">
             <a
-              href="#"
+              href="https://x.com/nexusfi_xyz"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
             </a>
             <a
-              href="#"
+              href="https://github.com/Nexus-Fi"
               className="hover:text-white transition-colors duration-300"
             >
-              Telegram
-            </a>
-            <a
-              href="#"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Github{" "}
+              Github
             </a>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          
-          <p>Email: mail@nexuxfi.com</p>
-          <p>Phone: (123) 456-7890</p>
+
+          <p>Email: contact@nexuxfi.com</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
@@ -92,6 +85,6 @@ const Footer = () => {
       </p>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;

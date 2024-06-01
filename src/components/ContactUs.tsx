@@ -13,7 +13,10 @@ function ContactUs() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-950 dark:bg-gray-900 py-12 pt-36 relative">
+    <div
+      id="ContactUs"
+      className="min-h-screen bg-neutral-950 dark:bg-gray-900 py-12 pt-36 relative"
+    >
       {" "}
       {/* Ensure the container is relative */}
       {/* BackgroundBeams with adjusted z-index */}
@@ -26,8 +29,8 @@ function ContactUs() {
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-           Reach out and let us know how we can assist you
-          in your restaking journey.
+          Reach out and let us know how we can assist you in your restaking
+          journey.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
