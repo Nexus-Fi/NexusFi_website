@@ -9,29 +9,27 @@ const people = [
     id: 1,
     name: "0xSangeet",
     designation: "Smart Contract Engineer",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    image: "https://i.ibb.co/52GWQMk/IMG-20240601-161938-908.jpg",
   },
   {
     id: 2,
     name: "ftNikhil.eth",
     designation: "Devops Engineer",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    image: "https://i.ibb.co/SVk2SHw/Screenshot-2024-06-01-at-16-41-08.png",
   },
   {
     id: 3,
     name: "0xShikhar",
     designation: "Backend Engineer",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+      "https://pbs.twimg.com/profile_images/1708431007198937088/FWSlBbaL_400x400.png",
   },
   {
     id: 4,
     name: "0xVishal",
     designation: "Frontend Engineer",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+      "https://pbs.twimg.com/profile_images/1780210768337629184/OXXMzNFK_400x400.jpg",
   },
 ];
 
