@@ -42,194 +42,66 @@ const Roadmap = () => {
 };
 const dummyContent = [
   {
-    title: "Design and Prototyping (Q2 2024)",
+    title: "Q3 2024",
     description: (
       <>
-        <p>
-          <span className="text-lg font-semibold">Architecture Design :-</span>{" "}
-          Design the architecture of the restaking platform, including smart
-          contracts and the Nexus Pod system.
-        </p>
-        <p>
-          <span className="text-lg font-semibold"> Prototyping :- </span> Build
-          a prototype of the platform to validate key concepts and
-          functionalities
-        </p>
+        <div>
+          <ul className="text-lg font-semibold list-disc ">
+            <li> Nibiru EVM Integration </li>
+            <li>Start integration with Nibiru EVM.</li>
+            <li>Develop necessary smart contracts.</li>
+            <li>Conduct preliminary testing.</li>
+          </ul>
+        </div>
       </>
     ),
     badge: "Phase 1 :-",
   },
-
   {
-    title: "Development (Q3 2024)",
+    title: "Q4 2024",
     description: (
       <>
-        <p>
-          <span className="text-xl font-semibold ">
-            Smart Contract Development :-
-          </span>
-          Develop and test the smart contracts for token locking, staking, and
-          slashing mechanisms.
-        </p>
-        <p>
-          <span className="text-xl font-semibold">
-            Nexus Pod Development :-
-          </span>
-          Implement the Nexus Pod system for monitoring validator balances and
-          enforcing slashing.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold">
-            User Interface Development :-
-          </span>
-          Create a user-friendly interface for interacting with the restaking
-          platform.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold">Integration :-</span>
-          Integrate the platform with Nibirus ecosystem and other relevant
-          systems.
-        </p>
+        <div>
+          <ul className="text-lg font-semibold list-disc ">
+            <li>Building a Scalable and Secure Platform for AVS Onboarding </li>
+            <li> Develop AVS infrastructure.</li>
+            <li>Implement security protocols.</li>
+            <li>Begin AVS onboarding process.</li>
+          </ul>
+        </div>
       </>
     ),
     badge: "Phase 2 :-",
   },
-
   {
-    title: "Testing and Auditing (Q3 2024)",
+    title: "Q1 2025",
     description: (
       <>
-        <p>
-          <span className="text-xl font-semibold">Internal Testing:-</span>
-          Conduct extensive internal testing to identify and fix bugs and
-          issues.
-        </p>
-        <p>
-          <span className="text-xl font-semibold"> Security Audits:- </span>{" "}
-          Engage third-party security firms to perform comprehensive audits of
-          the smart contracts and platform.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold"> Testnet Launch:- </span>{" "}
-          Launch a testnet of the platform to a broader audience for real-world
-          testing and feedback.
-        </p>
+        <div>
+          <ul className="text-lg font-semibold list-disc ">
+            <li> Token Launch </li>
+            <li>Mint and distribute tokens.</li>
+            <li>List tokens on major exchanges.</li>
+          </ul>
+        </div>
       </>
     ),
     badge: "Phase 3 :-",
   },
-
-  {
-    title: "Launch Preparation (Q4 2024)",
-    description: (
-      <>
-        <p>
-          <span className="text-xl font-semibold">
-            {" "}
-            Pre-Launch Marketing :-{" "}
-          </span>{" "}
-          Intensify marketing efforts to build anticipation and awareness ahead
-          of the official launch.
-        </p>
-        <p>
-          <span className="text-xl font-semibold"> Beta Launch :- </span> Early
-          Mainnet access to a broader audience(approx 2000 users) for real-world
-          testing and feedback.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold"> Token Design :- </span>{" "}
-          Design the native token for the restaking platform, including its
-          economic model and utility within the ecosystem.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold"> Documentation :- </span>{" "}
-          Prepare detailed documentation for users, including guides, tutorials,
-          and FAQs.
-        </p>
-        <p>
-          <span className="text-xl font-semibold"> Final Adjustments :- </span>{" "}
-          Make final adjustments based on beta testing feedback and audit
-          results.
-        </p>
-      </>
-    ),
-    badge: "Phase 4 :-",
-  },
-
-  {
-    title: "Official Launch (Q1 2025)",
-    description: (
-      <>
-        <p>
-          <span className="text-xl font-semibold">
-            {" "}
-            Official Public Launch :-{" "}
-          </span>{" "}
-          Officially launch the restaking platform on Nibiru for everyone.
-        </p>
-        <p>
-          <span className="text-xl font-semibold"> Audits and Testing :- </span>{" "}
-          Conduct security audits and testing of the token contracts to ensure
-          robustness and security.
-        </p>
-        <p>
-          <span className="text-xl font-semibold"> Ongoing Support :- </span>{" "}
-          Provide ongoing support and updates to users, ensuring a smooth
-          transition and addressing any post-launch issues.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold"> Token Launch :- </span> If
-          applicable, launch the native token associated with the restaking
-          platform, including an initial distribution event (e.g., ICO or
-          airdrop).
-        </p>
-      </>
-    ),
-    badge: "Phase 5 :-",
-  },
-
-  {
-    title: "Improvement and Development (Q2 2025)",
-    description: (
-      <>
-        <p>
-          <span className="text-xl font-semibold">
-            {" "}
-            Smart Contract Development :-{" "}
-          </span>{" "}
-          Develop the smart contracts required for the tokens functionality and
-          distribution.
-        </p>
-        <p>
-          <span className="text-xl font-semibold">
-            {" "}
-            Initial Distribution Event :-{" "}
-          </span>{" "}
-          Conduct an initial distribution event, such as an ICO or airdrop, to
-          launch the native token.
-        </p>
-
-        <p>
-          <span className="text-xl font-semibold"> Exchange Listings :- </span>{" "}
-          List the token on major exchanges and enable trading.
-        </p>
-        <p>
-          <span className="text-xl font-semibold">
-            {" "}
-            Community Engagement :-{" "}
-          </span>{" "}
-          Intensify marketing efforts to build anticipation and awareness around
-          the token launch.
-        </p>
-      </>
-    ),
-    badge: "Phase 6 :-",
-  },
 ];
 export default Roadmap;
+
+// Q3 2024
+// Nibiru EVM Integration
+// Start integration with Nibiru EVM.
+// Develop necessary smart contracts.
+// Conduct preliminary testing.
+// Q4 2024
+// Building a Scalable and Secure Platform for AVS Onboarding
+// Develop AVS infrastructure.
+// Implement security protocols.
+// Begin AVS onboarding process.
+// Q1 2025
+// Token Launch
+// Mint and distribute tokens.
+// List tokens on major exchanges.
