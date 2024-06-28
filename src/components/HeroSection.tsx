@@ -13,9 +13,7 @@ const HeroSection = () => {
     >
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="blue" />
       <div className="p-4 mt-10 relative z-10 w-full text-center">
-        <h1
-          className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-white"
-        >
+        <h1 className="mt-1 mb-8  pb-3 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-white">
           Restake your NIBI&apos;s to{" "}
           <span>
             <Typewriter
@@ -36,13 +34,21 @@ const HeroSection = () => {
           Join us in creating a more secure and interconnected financial future.
         </p>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 flex gap-4">
         <Link href={"https://litepaper.nexusfi.xyz/"}>
           <Button
             borderRadius="1.75rem"
             className="bg-black dark:bg-white text-white dark:text-black border-slate-700 dark:border-neutral-200"
           >
             Explore Restaking
+          </Button>
+        </Link>
+        <Link href={"https://nexusfi-testnet.netlify.app/"}>
+          <Button
+            borderRadius="1.75rem"
+            className="bg-blue-600 dark:bg-white text-white dark:text-black border-slate-700 dark:border-neutral-200"
+          >
+            Launch App
           </Button>
         </Link>
       </div>
