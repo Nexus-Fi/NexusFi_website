@@ -23,7 +23,7 @@ function Navbar({ className }: { className?: string }) {
             type="button"
             className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
           >
-            Restake Now
+            Launch App
           </a>
           <button
             data-collapse-toggle="navbar-sticky"
