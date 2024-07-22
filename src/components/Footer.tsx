@@ -77,7 +77,7 @@ const Footer = () => {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
 
-          <p>Email: contact@nexuxfi.com</p>
+          <p>Email: hi@nexusfi.xyz </p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
