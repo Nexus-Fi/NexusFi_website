@@ -54,14 +54,14 @@ const HeroSection = () => {
             Explore Staking & Restaking
           </Button>
         </Link>
-        <Link href={"https://nexusfi-testnet.netlify.app/"}>
+        {/* <Link href={"https://nexusfi-testnet.netlify.app/"}>
           <Button
             borderRadius="1.75rem"
             className="bg-blue-600 dark:bg-white text-white dark:text-black border-slate-700 dark:border-neutral-200"
           >
             Launch App
           </Button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
